@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(to bottom right, #00aaff, #0066cc);
+    /* height: 100vh; */
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario {
+    background-color: #ffffff;
+    padding: 5px 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    width: 100%;
+    margin: 20px auto;
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: #0066cc;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 4px;
+    font-weight: 600;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.btn {
+    /* width: 100%; */
+    background-color: #0066cc;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #004c99;
+}
+
+.separador {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 14px;
+    color: #777;
+}
+
+.google-btn {
+    background-color: #db4437;
+}
+
+.google-btn:hover {
+    background-color: #c23321;
+}

@@ -1,0 +1,5 @@
+ID DE GOOGLE CLOUD
+
+id cliente: 725815759149-h1ed9016onum3b08vo8osi3g94binggq.apps.googleusercontent.com
+
+secreto de cliente: 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

@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TuEmpleo - Encuentra trabajo fácil y rápido</title>
+    <link rel="stylesheet" href="styleindex.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="top-nav">
+            <div class="container">
+                <a href="#">Contacto</a>
+                <a href="login.html">Iniciar Sesión</a>
+                <a href="register.html">Registrarse</a>
+            </div>
+        </div>
+        <div class="container">
+            <nav class="main-nav">
+                <a href="#" class="logo">Tu<span>Empleo</span></a>
+                <ul class="nav-links">
+                    <li><a href="index.php">Inicio</a></li>
+                    <li><a href="#">Empleos</a></li>
+                    <li><a href="#">Empresas</a></li>
+                    <li><a href="#">Candidatos</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+                <a href="#" class="btn">Publicar Empleo</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Encuentra el trabajo de tus sueños</h1>
+            <p>Miles de empleos disponibles en todo el país para ti. Búsqueda fácil y rápida.</p>
+            <a href="#" class="btn btn-orange">Comenzar Ahora</a>
+        </div>
+    </section>
+
+    <!-- Search Section -->
+    <section class="search-section">
+        <div class="container">
+            <div class="search-container">
+                <form class="search-form">
+                    <input type="text" class="search-input" placeholder="¿Qué trabajo estás buscando?">
+                    <input type="text" class="search-input" placeholder="¿Dónde? Ciudad, estado...">
+                    <select class="search-input">
+                        <option value="" disabled selected>Categoría</option>
+                        <option value="1">Atención al Cliente</option>
+                        <option value="2">Construcción</option>
+                        <option value="3">Hostelería</option>
+                        <option value="4">Limpieza</option>
+                        <option value="5">Ventas</option>
+                    </select>
+                    <button type="submit" class="search-btn">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Jobs -->
+    <section class="featured-jobs">
+        <div class="container">
+            <h2 class="section-title">Empleos Destacados</h2>
+            <div class="jobs-grid" id="jobs-grid">
+                <!-- Job Card 1 -->
+                <!-- <div class="contenedor-empleos">
+                    <?php include 'obtener_empleo_destacado.php'; ?>
+                </div> -->
+                
+                
+                    
+                
+                <!-- Job Card 2 -->
+                <!-- <div class="job-card">
+                    <div class="job-img">
+                        <img src="/api/placeholder/150/100" alt="Logo de empresa">
+                    </div>
+                    <div class="job-content">
+                        <h3 class="job-title">Mesero/a para Restaurante</h3>
+                        <p class="job-company">Restaurante El Rincón Latino</p>
+                        <p class="job-location">
+                            <span>📍</span> Queens, NY
+                        </p>
+                        <div class="job-details">
+                            <span class="job-type">Medio Tiempo</span>
+                            <span class="job-salary">$18-22/hora</span>
+                        </div>
+                    </div>
+                </div>
+                 -->
+                <!-- Job Card 3 -->
+                <!-- <div class="job-card">
+                    <div class="job-img">
+                        <img src="/api/placeholder/150/100" alt="Logo de empresa">
+                    </div>
+                    <div class="job-content">
+                        <h3 class="job-title">Personal de Limpieza</h3>
+                        <p class="job-company">Clean & Shine Services</p>
+                        <p class="job-location">
+                            <span>📍</span> Bronx, NY
+                        </p>
+                        <div class="job-details">
+                            <span class="job-type">Flexible</span>
+                            <span class="job-salary">$17-19/hora</span>
+                        </div>
+                    </div>
+                </div> -->
+                
+                <!-- Job Card 4 -->
+                <!-- <div class="job-card">
+                    <div class="job-img">
+                        <img src="/api/placeholder/150/100" alt="Logo de empresa">
+                    </div>
+                    <div class="job-content">
+                        <h3 class="job-title">Ayudante de Cocina</h3>
+                        <p class="job-company">Food Taste Catering</p>
+                        <p class="job-location">
+                            <span>📍</span> Manhattan, NY
+                        </p>
+                        <div class="job-details">
+                            <span class="job-type">Tiempo Completo</span>
+                            <span class="job-salary">$19-23/hora</span>
+                        </div>
+                    </div>
+                </div> -->
+                
+                <!-- Job Card 5 -->
+                <!-- <div class="job-card">
+                    <div class="job-img">
+                        <img src="/api/placeholder/150/100" alt="Logo de empresa">
+                    </div>
+                    <div class="job-content">
+                        <h3 class="job-title">Asistente de Ventas</h3>
+                        <p class="job-company">Fashion Store Inc.</p>
+                        <p class="job-location">
+                            <span>📍</span> Staten Island, NY
+                        </p>
+                        <div class="job-details">
+                            <span class="job-type">Medio Tiempo</span>
+                            <span class="job-salary">$16-18/hora</span>
+                        </div>
+                    </div>
+                </div> -->
+                
+                <!-- Job Card 6 -->
+                <!-- <div class="job-card">
+                    <div class="job-img">
+                        <img src="/api/placeholder/150/100" alt="Logo de empresa">
+                    </div>
+                    <div class="job-content">
+                        <h3 class="job-title">Conductor de Reparto</h3>
+                        <p class="job-company">Express Delivery Services</p>
+                        <p class="job-location">
+                            <span>📍</span> Brooklyn, NY
+                        </p>
+                        <div class="job-details">
+                            <span class="job-type">Tiempo Completo</span>
+                            <span class="job-salary">$20-25/hora</span>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+            <div style="text-align: center; margin-top: 40px;">
+                <a href="#" class="btn">Ver Más Empleos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- How it Works -->
+    <section class="how-it-works">
+        <div class="container">
+            <h2 class="section-title">¿Cómo Funciona?</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-icon">1</div>
+                    <h3 class="step-title">Crea tu perfil</h3>
+                    <p>Regístrate y crea tu perfil profesional para que los empleadores puedan encontrarte.</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon">2</div>
+                    <h3 class="step-title">Busca empleos</h3>
+                    <p>Navega por miles de ofertas de trabajo y encuentra la que mejor se adapte a tus habilidades.</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon">3</div>
+                    <h3 class="step-title">Postúlate</h3>
+                    <p>Aplica a los trabajos que te interesan y espera a ser contactado por las empresas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="categories">
+        <div class="container">
+            <h2 class="section-title">Categorías Populares</h2>
+            <div class="categories-grid">
+                <div class="category-card">
+                    <div class="category-icon">🍽️</div>
+                    <h3 class="category-title">Hostelería</h3>
+                    <p class="category-count">458 empleos</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">🧹</div>
+                    <h3 class="category-title">Limpieza</h3>
+                    <p class="category-count">325 empleos</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">🏗️</div>
+                    <h3 class="category-title">Construcción</h3>
+                    <p class="category-count">274 empleos</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">🛒</div>
+                    <h3 class="category-title">Ventas</h3>
+                    <p class="category-count">186 empleos</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">🚗</div>
+                    <h3 class="category-title">Transporte</h3>
+                    <p class="category-count">132 empleos</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">👨‍💼</div>
+                    <h3 class="category-title">Administración</h3>
+                    <p class="category-count">97 empleos</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">🏠</div>
+                    <h3 class="category-title">Mantenimiento</h3>
+                    <p class="category-count">89 empleos</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">🧑‍⚕️</div>
+                    <h3 class="category-title">Salud</h3>
+                    <p class="category-count">76 empleos</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3 class="footer-title">TuEmpleo</h3>
+                    <p>La plataforma número uno para encontrar empleo en español. Conectamos personas con oportunidades laborales.</p>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon">f</a>
+                        <a href="#" class="social-icon">t</a>
+                        <a href="#" class="social-icon">in</a>
+                        <a href="#" class="social-icon">ig</a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3 class="footer-title">Para Candidatos</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Buscar Empleos</a></li>
+                        <li><a href="#">Crear CV</a></li>
+                        <li><a href="#">Mi Cuenta</a></li>
+                        <li><a href="#">Alertas de Empleo</a></li>
+                        <li><a href="#">Consejos</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3 class="footer-title">Para Empresas</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Publicar Empleo</a></li>
+                        <li><a href="#">Buscar Candidatos</a></li>
+                        <li><a href="#">Precios</a></li>
+                        <li><a href="#">Recursos</a></li>
+                        <li><a href="#">Blog Empresarial</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3 class="footer-title">Newsletter</h3>
+                    <p>Suscríbete para recibir las últimas ofertas de empleo</p>
+                    <form class="subscribe-form">
+                        <input type="email" class="subscribe-input" placeholder="Tu email">
+                        <button type="submit" class="subscribe-btn">✓</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 TuEmpleo - Todos los derechos reservados</p>
+            </div>
+        </div>
+    </footer>
+</body>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+    const container = document.getElementById('jobs-grid');
+    fetch('/api/empleos')
+       .then(response => response.json())
+       .then(data => {
+          
+           data.forEach(empleo => {
+               const card = document.createElement('div');
+               card.className = 'job-card';
+               card.innerHTML = `
+                   <div class="job-img">
+                       <img src="/api/placeholder/150/100" alt="Logo de empresa">
+                   </div>
+                   <div class="job-content">
+                       <h3 class="job-title">${empleo.titulo}</h3>
+                       <p class="job-company">${empleo.descripcion}</p>
+                       <p class="job-location">
+                           <span>📍</span> ${empleo.ubicacion}
+                       </p>
+                       <div class="job-details">
+                           <span class="job-type">${empleo.tipo_empleo}</span>
+                           <span class="job-salary">$${empleo.salario_min} - $${empleo.salario_max}</span>
+                       </div>
+                   </div>
+               `;
+              
+               container.appendChild(card);
+           });
+       })
+       .catch(err => {
+           console.error('Error cargando empleos:', err);
+       });
+    });
+   </script>
+
+</html>
+
